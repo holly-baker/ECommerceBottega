@@ -3,4 +3,6 @@
 
     grid-template-rows: [header-s] 50px [header-e nav-s] 50px [nav-e content-s] 1fr [content-s];
     grid-template-columns: [s] 1fr [e];
+    grid-row: content-s/content-e;
+    grid-column: s/e;
  }

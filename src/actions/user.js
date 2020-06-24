@@ -2,7 +2,7 @@ import {
     SET_USER_PURCHASES
 } from './types';
 
-export function setPurchaseDetail() {
+export function setPurchaseDetail(_id) {
     return ({
         type: SET_PURCHASE_DETAIL,
         payload: _id

@@ -22,6 +22,7 @@ class Account extends Component {
                 path: '/'
             }
         ]
+
         const navbarLinks = [
             {
                 _id: 0,

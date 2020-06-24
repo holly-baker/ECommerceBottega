@@ -11,10 +11,6 @@ function PurchaseDetailLabel({className, title, value}) {
 }
 
 
-// total: 19.40,
-// creditCard: '-0000',
-
-
 class PurchaseDetail extends Component {
     render() {
         const { className, orderNumber, orderDate, user, total, creditCard } = this.props;

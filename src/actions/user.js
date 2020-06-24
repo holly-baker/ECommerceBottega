@@ -1,5 +1,6 @@
 import {
-    SET_USER_PURCHASES
+    SET_USER_PURCHASES,
+    SET_PURCHASE_DETAIL
 } from './types';
 
 export function setPurchaseDetail(_id) {

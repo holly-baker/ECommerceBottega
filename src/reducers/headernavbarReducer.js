@@ -27,6 +27,7 @@ export default function(state = INITIAL_STATE, action) {
                 if(link._id == action.payload) {
                     link.active = true;
                 }
+                return link;
             })
             return {
                 ...state,

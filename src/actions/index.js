@@ -9,6 +9,11 @@ import {
     setPurchaseDetail
 } from './user';
 
+import {
+    fetchShopCategories
+} from './shop';
+
+
 export {
     setHeaderLinks,
     setNavbarLinks,
@@ -16,4 +21,5 @@ export {
 
     fetchUserPurchases,
     setPurchaseDetail, 
+    fetchShopCategories
 };

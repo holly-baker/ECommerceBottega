@@ -1,4 +1,4 @@
-import {
+import { 
     setHeaderLinks,
     setNavbarLinks,
     changeNavbarActive
@@ -11,9 +11,9 @@ import {
 
 import {
     fetchShopCategories,
-    fetchShopProducts
+    fetchShopProducts,
+    filterProductsWithCategoryId
 } from './shop';
-
 
 export {
     setHeaderLinks,
@@ -21,7 +21,9 @@ export {
     changeNavbarActive,
 
     fetchUserPurchases,
-    setPurchaseDetail, 
+    setPurchaseDetail,
+
     fetchShopCategories,
-    fetchShopProducts
+    fetchShopProducts,
+    filterProductsWithCategoryId
 };

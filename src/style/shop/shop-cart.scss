@@ -46,7 +46,7 @@
         font-weight: 600;
         font-size: 30px;
         font-family: 'Titillium Web';
-        color: #e6e6e6;
+        color: #E6E6E6;
     }
     &__products {
         display: grid;
@@ -56,9 +56,10 @@
     }
 }
 
+
 .cart-footer {
     height: 113px;
-    background-color: #1a1a1a;
+    background-color: #1A1A1A;
 
     display: grid;
     grid-template-rows: [s] 1fr [e];
@@ -68,8 +69,10 @@
     & > * {
         grid-row: s/e;
     }
-
+  
     &__checkout {
+        grid-column: checkout-s/checkout-e; 
+
         display: grid;
         justify-items: center;
         align-items: center;
@@ -77,35 +80,39 @@
         height: 38px;
         width: 183px;
         border-radius: 20px;
-        background-color: #00cb79;
+        background-color: #00CB79;
+
         color: white;
         font-size: 1.6rem;
         font-weight: 600;
-        
+
         transition: all .3s ease;
 
         &:hover {
             transform: scale(0.97);
         }
+
         &:active {
             transform: scale(0.95);
         }
+
         &:focus {
             outline: none;
         }
-    
-        &__subtotal {
-            justify-self: end;
-            grid-column: sub-s/sub-e;
-            font-size: 18px;
-        }
-
-        &__price {
-            justify-self: start;
-            grid-column: price-s/price-e;
-            font-size: 18px;
-            color: white;
-            font-weight: 600;
-        }
     }
+
+    &__subtotal {
+        justify-self: end;
+        grid-column: sub-s/sub-e; 
+        font-size: 18px;
+    }
+
+    &__price {
+        justify-self: start;
+        grid-column: price-s/price-e; 
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+    }
+
 }

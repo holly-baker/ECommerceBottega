@@ -54,8 +54,12 @@ body {
 @import './shop/shop.scss';
 @import './shop/shop-searchbar.scss';
 @import './shop/shop-product.scss';
-@import './shop/shop-cart.scss';
+
 
 // QUANTITY
 @import './quantity.scss';
 @import './green-price-tag.scss';
+
+// CART
+@import './shop/shop-cart.scss';
+@import './shop/cart-product.scss';
